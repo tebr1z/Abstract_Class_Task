@@ -9,14 +9,14 @@ namespace Abstract_Class_Task.Product
 {
   
 
-    public class Book : Product
-    {
-        public string Genre { get; set; }
+    //public abstract class Book : Product
+    //{
+    //    public string Genre { get; set; }
 
-        public Book(string name, decimal price, int count, string genre) : base(name, price, count)
-        {
-            Genre = genre;
-        }
-    }
+    //    public Book(string name, decimal price, int count, string genre) : base(name, price, count)
+    //    {
+    //        Genre = genre;
+    //    }
+    //}
 
 }
